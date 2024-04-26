@@ -1,0 +1,96 @@
+nav{
+    background-color: #D7C302;
+    color: #000000;
+    opacity: 74%;
+}
+
+.navbar {
+    z-index: 1; 
+    background-color: #D7C302;
+}
+
+.carousel {
+    z-index: 0; 
+}
+
+b{
+    color: #000000;
+    opacity: 100%;
+}
+
+.bar-yellow{
+    height: 65px;
+}
+
+.dropdown-menu{
+    background-color: #D7C302;
+}
+
+.decorative-bar-green {
+    background-color: #258802;
+    height: 54px; 
+}
+
+.decorative-bar-blue {
+    background-color: #0028B1;
+    height: 54px; 
+}
+
+.bar-blue {
+    background-color: #0028B1;
+    height: 54px;
+    background-image: url(../Images-of-prueb/facebook/Images-of-prueb/_instagram_combined.png); 
+    background-position: left center, right center;
+    background-repeat: no-repeat;
+    background-size: auto 100%; 
+}
+
+#carouselExampleSlidesOnly{
+    height: -200px;
+}
+
+.img-footer{
+    height: 200px;
+    width: 1364px;
+}
+
+.bar-white{
+    width: 3px;
+    height: 102px;
+}
+
+.carousel-item{
+    height: 457px;
+}
+
+button{
+    height: 34px;
+}
+
+.Look{
+    background-color: #9CCC12;
+}
+
+.Dowload{
+    background-color: #175BC1;
+}
+
+footer{
+    background-image: url(../Images/21.JPG);
+    z-index: 1;
+    width: 1364px;
+    height: auto;
+    background-position-y: center;
+}
+
+.bar-transparence{
+    
+    z-index: 0;
+    background-color: #0028B1;
+}
+
+.decorative-bar-blue-footer {
+    background-color: #0028B1;
+    height: 54px; 
+}
+
