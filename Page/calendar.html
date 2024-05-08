@@ -10,70 +10,65 @@
     <title>Calendario</title>
 </head>
 <body>
+  <header>
+    <img src="../Images/Recurso 1-100.jpg " class="rounded mx-auto d-block img-fluid w-25 my-5 py-3" alt="">
+  </header>
+  <nav class="navbar navbar-expand-lg  container-fluid">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="../Images/logo concejoddd.png" alt="Council" width="64" height="64">
+        <b>Inicio</b>
+      </a>
+
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Corporación</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><b>¿Qué es el concejo?</b></a></li>
+                <li><a class="dropdown-item" href="./Council.html"><b>Orniganigrama</b></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"><b>Visión Y Misión</b></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><b>Agenda</b></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Projectos de acuerdo</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./Projects.html"><b>Projectos de acuerdo</b></a></li>
+                <li><a class="dropdown-item" href="./Projects.html"><b>Acuerdos municipales</b></a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </nav>
     <main class="row d-flex justify-content-center align-items-center">
-        <img src="../Images/Recurso 1-100.jpg" class="rounded mx-auto d-block img-fluid w-25 my-5 py-3" alt="">
-        <nav class="navbar navbar-expand-lg bg-">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><b>Inicio</b></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                 
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <b>Corporación</b>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"> <b>¿Qué es el concejo?</b></a></li>
-                      <li><a class="dropdown-item" href="#"> <b>Orniganigrama</b> </a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#"><b>Misión y Visón</b></a></li>
-                      <li><a class="dropdown-item" href="#"> <b>Objetivo</b></a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Calendario</a>
-                  <li class="nav-item dropdown">
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Proyectos de acuerdo
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Transparencia y participación ciudadana
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">PQRDS</a>
-                  <li class="nav-item dropdown">
-
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -91,18 +86,38 @@
           <div class="">
             <img class="img-fluid rounded mx-auto d-block w-50 my-5" src="../Images-of-prueb/table.png" alt="">
           </div>
-
-          <footer class="flex-direction-column d-flex align-items-center justify-content-center py-5">
-            <img class="img-fluid img-footer " src="../Images/21.JPG" alt="">
-            <div class="row bar-white"></div>
-            <div class="row-12">
-                <div class="col">
-                  <div class="bar-blue"></div>
-                </div>
-              </div>
-          </footer>
-
     </main>
-   
+
+    <footer >
+
+      <div class="footer-bg py-4 mt-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 d-flex mx-5">
+              <p class="text-light text-start fs-5">Contactanos</p>
+              <div class="bar-white-1 rounded-5 mx-5"></div>
+              <div class="bar-white-2 rounded-5 mx-5"></div>
+              <p class="text-light text-start fs-5">Contactanos</p>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+
+      <div class="col text-md-end ">
+      
+        <div class="bar-footer">
+            <img class="rounded float-start mb-3" src="../Images-of-prueb/copyright.png" alt=""> 
+          <p class="text-light text-start d-flex align-items-center">copyright</p>
+  
+          <div class="images d-flex justify-content-center">
+            <a href="https://www.facebook.com/concejosantarosaosos/?locale=es_LA"><img class="rounded mt-3" src="../Images-of-prueb/facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/concejosantarosadeosos/?hl=es-la"><img class="rounded mt-3" src="../Images-of-prueb/instagram.png" alt="Instagram"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
 </body>
 </html>
